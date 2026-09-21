@@ -8,9 +8,9 @@ Totals below count **merged PRs you authored**. Open/draft PRs are not included 
 | Repo | Authored | Notes |
 |------|----------|--------|
 | [nm-namshi-frontend](https://github.com/fastfishio/nm-namshi-frontend) | 57 | Squash-merge commits in your name |
-| [nm-namshi-nappshi](https://github.com/fastfishio/nm-namshi-nappshi) | 41 | Most Jan–Mar PRs were merged by AhmedFarahat93 |
+| [nm-namshi-nappshi](https://github.com/fastfishio/nm-namshi-nappshi) | 42 | Most Jan–Mar PRs were merged by AhmedFarahat93 |
 | [nm-partners-namshi-catalog-web](https://github.com/fastfishio/nm-partners-namshi-catalog-web) | 2 | |
-| **Total** | **100** | Plus 2 nappshi PRs you contributed to |
+| **Total** | **101** | Plus 2 nappshi PRs you contributed to |
 
 ---
 
@@ -78,9 +78,9 @@ Totals below count **merged PRs you authored**. Open/draft PRs are not included 
 
 ---
 
-## nm-namshi-nappshi — 41 authored
+## nm-namshi-nappshi — 42 authored
 
-Dates are merge dates from git. Jan–Mar PRs were typically merged by AhmedFarahat93; authorship is from your commits on the PR branch. `#2874` was squash-merged by AhmedFarahat93; the patch matches your `feature-1289 phoneVerification` commits.
+Dates are merge dates from git. Jan–Mar PRs were typically merged by AhmedFarahat93; authorship is from your commits on the PR branch. `#2523` landed as `SBP-1253 ItemLevelCheckout-V2` without a `(#2523)` commit title. `#2874` was squash-merged by AhmedFarahat93; the patch matches your `feature-1289 phoneVerification` commits.
 
 | Date | PR | Title / branch |
 |------|-----|----------------|
@@ -121,6 +121,7 @@ Dates are merge dates from git. Jan–Mar PRs were typically merged by AhmedFara
 | 2026-03-04 | [#2329](https://github.com/fastfishio/nm-namshi-nappshi/pull/2329) | SBP-1091-fix-donationIcon-deliveryFeeStrick |
 | 2026-03-05 | [#2332](https://github.com/fastfishio/nm-namshi-nappshi/pull/2332) | SBP-1091-fix-customInput-donation-box |
 | 2026-03-10 | [#2334](https://github.com/fastfishio/nm-namshi-nappshi/pull/2334) | [SBP-1091] addressandtopScroll |
+| 2026-04-24 | [#2523](https://github.com/fastfishio/nm-namshi-nappshi/pull/2523) | SBP-1253 ItemLevelCheckout-V2 |
 | 2026-07-15 | [#2725](https://github.com/fastfishio/nm-namshi-nappshi/pull/2725) | SBP-2724 checkoutScreenConversionRate |
 | 2026-07-15 | [#2727](https://github.com/fastfishio/nm-namshi-nappshi/pull/2727) | SBP-1240 fixTimerAlignment |
 | 2026-09-07 | [#2870](https://github.com/fastfishio/nm-namshi-nappshi/pull/2870) | [PCC-1302] newhtmlview |
@@ -133,7 +134,7 @@ Dates are merge dates from git. Jan–Mar PRs were typically merged by AhmedFara
 | 2026-01-22 | [#2190](https://github.com/fastfishio/nm-namshi-nappshi/pull/2190) | SBP-1091-coupon-tray-v2 |
 | 2026-01-22 | [#2208](https://github.com/fastfishio/nm-namshi-nappshi/pull/2208) | cart-free-delivery-revamp |
 
-Local nappshi work from March–June (SBP-1253 ILC, SBP-1297, SBP-1307, PCC bugfixes, and similar) did not map cleanly to squash/merge PR numbers without the GitHub API.
+Local nappshi work from March–June (SBP-1297, SBP-1307, PCC bugfixes, and similar) did not map cleanly to squash/merge PR numbers without the GitHub API.
 
 ---
 
