@@ -1,23 +1,36 @@
-# PRs in 2026
+# 2026 — branches and PRs you contributed to
 
 Author: **reemsarhan** (`115352161+reemsarhan@users.noreply.github.com`)  
 Org: [fastfishio](https://github.com/fastfishio)
 
-Totals below count **merged PRs you authored**. Open/draft PRs are not included (GitHub API was not available).
+This list is **contribution-based**: any PR or branch that contains your 2026 commits, including work others merged or authored. GitHub CLI was not available; numbers come from local git (merge messages and squash titles). Open/draft PRs with no merge commit in these clones may be missing.
 
-| Repo | Authored | Notes |
-|------|----------|--------|
-| [nm-namshi-frontend](https://github.com/fastfishio/nm-namshi-frontend) | 57 | Squash-merge commits in your name |
-| [nm-namshi-nappshi](https://github.com/fastfishio/nm-namshi-nappshi) | 42 | Most Jan–Mar PRs were merged by AhmedFarahat93 |
-| [nm-partners-namshi-catalog-web](https://github.com/fastfishio/nm-partners-namshi-catalog-web) | 2 | |
-| **Total** | **101** | Plus 2 nappshi PRs you contributed to |
+| Repo | PRs (numbered) | Notes |
+|------|----------------|--------|
+| [nm-namshi-frontend](https://github.com/fastfishio/nm-namshi-frontend) | 67 | 66 with your squash/merge titles + integration [#1690](https://github.com/fastfishio/nm-namshi-frontend/pull/1690) |
+| [nm-namshi-nappshi](https://github.com/fastfishio/nm-namshi-nappshi) | 49 | Plus Mar–Jun branches that never mapped to a PR number |
+| [nm-partners-namshi-catalog-web](https://github.com/fastfishio/nm-partners-namshi-catalog-web) | 7 | Crossborder [#757](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/757) + customizations + [#890](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/890) |
+| **Total** | **123** | |
 
 ---
 
-## nm-namshi-frontend — 57
+## nm-namshi-frontend
+
+### PRs
+
+**You authored / your squash titles**
 
 | Date | PR | Title |
 |------|-----|--------|
+| 2026-06-17 | [#1716](https://github.com/fastfishio/nm-namshi-frontend/pull/1716) | feature-emptyBagCTA |
+| 2026-06-24 | [#1710](https://github.com/fastfishio/nm-namshi-frontend/pull/1710) | feature-progressiveCoupon |
+| 2026-06-24 | [#1723](https://github.com/fastfishio/nm-namshi-frontend/pull/1723) | feature-shipmentsCheckout |
+| 2026-06-24 | [#1750](https://github.com/fastfishio/nm-namshi-frontend/pull/1750) | feature-fixGWPZeroValue |
+| 2026-06-24 | [#1751](https://github.com/fastfishio/nm-namshi-frontend/pull/1751) | feature-addCheckoutButtonForOOSItems |
+| 2026-06-25 | [#1714](https://github.com/fastfishio/nm-namshi-frontend/pull/1714) | feature-timerUrgency |
+| 2026-06-25 | [#1738](https://github.com/fastfishio/nm-namshi-frontend/pull/1738) | feature-checkoutScroll |
+| 2026-06-25 | [#1755](https://github.com/fastfishio/nm-namshi-frontend/pull/1755) | feature-sessionItemBoxLayout |
+| 2026-06-26 | [#1757](https://github.com/fastfishio/nm-namshi-frontend/pull/1757) | feature-bagScreenLayoutDesktop |
 | 2026-07-10 | [#1759](https://github.com/fastfishio/nm-namshi-frontend/pull/1759) | [FEATURE] urgencyTimerDesktop |
 | 2026-07-10 | [#1762](https://github.com/fastfishio/nm-namshi-frontend/pull/1762) | [FEATURE] mini bag |
 | 2026-07-13 | [#1758](https://github.com/fastfishio/nm-namshi-frontend/pull/1758) | [FEATURE] removeGroupingAndSessionItemBoxDesktop |
@@ -76,14 +89,32 @@ Totals below count **merged PRs you authored**. Open/draft PRs are not included 
 | 2026-09-09 | [#1939](https://github.com/fastfishio/nm-namshi-frontend/pull/1939) | [FIX] bugFixing1323And1355And1353And1345 |
 | 2026-09-15 | [#1950](https://github.com/fastfishio/nm-namshi-frontend/pull/1950) | [FEATURE] bagAndCheckoutRedesign Bumb Version |
 
+**Contributed (someone else opened/merged; your work is in the branch)**
+
+| Date | PR | Title | Role |
+|------|-----|--------|------|
+| 2026-09-15 | [#1690](https://github.com/fastfishio/nm-namshi-frontend/pull/1690) | [INTEGRATION] Web V3 (Bag & Checkout) | AhmedFarahat93 merged; carries the redesign stack |
+
+### Branches (your 2026 commits)
+
+Integration: `feature-bagAndCheckoutRedesign`, `feature-bagAndCheckoutRedesignV2`, `feature-bagAndCheckoutRedesign-bugFixing`, `feature-bagCheckoutV3Testing`, `feature-redesignAndILC`, `feature-redesignAndILCV2`, `feature-itemLevelCheckout`, `pr-1875`
+
+Feature slices: `feature-emptyBagCTA`, `feature-progressiveCoupon`, `feature-shipmentsCheckout`, `feature-fixGWPZeroValue`, `feature-addCheckoutButtonForOOSItems`, `feature-timerUrgency`, `feature-checkoutScroll`, `feature-sessionItemBox`, `feature-sessionItemBoxLayout`, `feature-bagScreenLayout`, `feature-bagScreenLayoutDesktop`, `feature-bagScreenScrolling`, `feature-sequentialRotatingView`, `feature-swipeAnimationDeleteAndAddToWishlist`, `feature-miniBag`, `feature-emptyBagDesktop`, `feature-oosSimilarItems`, `feature-checkoutScreenLayoutDesktop`, `feature-cartScreenLayoutDesktop`, `feature-shipmentsCheckoutDesktop`, `feature-removeGroupingAndSessionItemBoxDesktop`, `feature-paymentMethodsCheckout`, `feature-paymentMethodCheckoutDesktop`, `feature-newPaymentRetryScreen1329`, `feature-newPaymentRetryScreen1329V2`, `feature-returnabilityTag`, `feature-itemLevelCheckoutMiniBag1366And1352`, `feature-swipeSessionItemBox`, `feature-removeIconFromTimer`, `feature-couponBagEnhancement`, `feature-DiscountBankCoupons`, `discount-title-limit`
+
+You also merged `feature-preOrderPhoneVerificationV2` into `fix-fixV3Bugs` (no 2026 commits of yours on that branch itself).
+
+Current WIP (no PR number found): `fix-fixV3Bugs`, `fix-fixV3BugFixing`, `fix-toastMeassagesBagScreen1350And1351`, `fix-bugFixing1354And1334And1359`, `fix-bugFixing1376And1356`, `fix-oosPickAnotherSize1285`, `fix-addOutletIcon1327`, `fix-globalIconAndGSP-1325`, `fix-referralAndGWP1323And1336`, `fix-hiddenQTYText`, `chore-cmsImageSizeWarning`
+
 ---
 
-## nm-namshi-nappshi — 42 authored
+## nm-namshi-nappshi
 
-Dates are merge dates from git. Jan–Mar PRs were typically merged by AhmedFarahat93; authorship is from your commits on the PR branch. `#2523` landed as `SBP-1253 ItemLevelCheckout-V2` without a `(#2523)` commit title. `#2874` was squash-merged by AhmedFarahat93; the patch matches your `feature-1289 phoneVerification` commits.
+Dates are merge dates. Jan–Mar PRs were typically merged by AhmedFarahat93.
 
-| Date | PR | Title / branch |
-|------|-----|----------------|
+### PRs you authored (commits on the PR branch)
+
+| Date | PR | Branch |
+|------|-----|--------|
 | 2026-01-22 | [#2178](https://github.com/fastfishio/nm-namshi-nappshi/pull/2178) | SBP-1091-bag-total-summary |
 | 2026-01-22 | [#2193](https://github.com/fastfishio/nm-namshi-nappshi/pull/2193) | SBP-1091-timer-container |
 | 2026-01-22 | [#2201](https://github.com/fastfishio/nm-namshi-nappshi/pull/2201) | SBP-1091-progressive-coupon-view |
@@ -125,22 +156,41 @@ Dates are merge dates from git. Jan–Mar PRs were typically merged by AhmedFara
 | 2026-07-15 | [#2725](https://github.com/fastfishio/nm-namshi-nappshi/pull/2725) | SBP-2724 checkoutScreenConversionRate |
 | 2026-07-15 | [#2727](https://github.com/fastfishio/nm-namshi-nappshi/pull/2727) | SBP-1240 fixTimerAlignment |
 | 2026-09-07 | [#2870](https://github.com/fastfishio/nm-namshi-nappshi/pull/2870) | [PCC-1302] newhtmlview |
-| 2026-09-18 | [#2874](https://github.com/fastfishio/nm-namshi-nappshi/pull/2874) | feature-1289 phoneVerification |
+| 2026-09-18 | [#2874](https://github.com/fastfishio/nm-namshi-nappshi/pull/2874) | feature-1289 phoneVerification (AhmedFarahat93 squash-merged; your commits) |
 
-### nm-namshi-nappshi — contributed (not primary author)
+### PRs you contributed to (not the primary PR author)
 
-| Date | PR | Branch |
-|------|-----|--------|
-| 2026-01-22 | [#2190](https://github.com/fastfishio/nm-namshi-nappshi/pull/2190) | SBP-1091-coupon-tray-v2 |
-| 2026-01-22 | [#2208](https://github.com/fastfishio/nm-namshi-nappshi/pull/2208) | cart-free-delivery-revamp |
+| Date | PR | Branch | Notes |
+|------|-----|--------|--------|
+| 2026-01-22 | [#2190](https://github.com/fastfishio/nm-namshi-nappshi/pull/2190) | SBP-1091-coupon-tray-v2 | 23 of your 2026 commits on the branch |
+| 2026-01-22 | [#2208](https://github.com/fastfishio/nm-namshi-nappshi/pull/2208) | cart-free-delivery-revamp | Merged into bag redesign with your branch |
+| 2026-01-30 | [#2235](https://github.com/fastfishio/nm-namshi-nappshi/pull/2235) | SBP-1107-delivery-promise-fix | 37 of your 2026 commits on the branch |
+| 2026-02-23 | [#2296](https://github.com/fastfishio/nm-namshi-nappshi/pull/2296) | SBP-1091-payment-methods-v2 | Your bag/checkout commits on the branch |
+| 2026-03-01 | [#2314](https://github.com/fastfishio/nm-namshi-nappshi/pull/2314) | SBP-1091-Checkout-gift-packing | Your commits present |
+| 2026-03-04 | [#2330](https://github.com/fastfishio/nm-namshi-nappshi/pull/2330) | SBP-1091-bag-redesign-payment-bugs | Your commits present |
 
-Local nappshi work from March–June (SBP-1297, SBP-1307, PCC bugfixes, and similar) did not map cleanly to squash/merge PR numbers without the GitHub API.
+### Branches without a mapped PR number (Mar–Jun + current)
+
+`SBP-1091-bag-redesign`, `SBP-1091-bag-revamp`, `SBP-1091-int-demo`, `SBP-1091-couponsScreen-acount`, `SBP-1091-adjust-bottomNavBar`, `SBP-1091-cart-checkout-translation`, `SBP-1091-adjust-minScrollThreshold`, `SBP-1091-BugFixingV1`, `SBP-1091-BugFixingV2`, `SBP-1091-paymentErrorScreen`, `SBP-1091-rotatable-shipment-types`, `SBP-1091-optimisticToast`, `SBP-1091-PCCFixes`, `SBP-1091-PCCBugFixing`, `SBP-1104-cutoffText`, `SBP-1217-fixButtHeight`, `SBP-1231-fixPaymentErrorScreenSpacing`, `SBP-1246-additionalZeroDeliveryEstimate`, `SBP-1260-fixTopCMSContentJump`, `SBP-1272-fixRotatingView`, `SBP-1278-fixGWPBlurryImage`, `SBP-1283-fixDonationWhenToastAppears`, `SBP-1297-fixGiftCardScreenScrollDown`, `SBP-1307-bag-animationEnhancement`, `SBP-1253-ItemLevelCheckout-V2-backup`, `pr-2523-tmp`, `PCC-1302-newhtmlview`, `feature-1289-phoneVerification`, `fix-ios27AppCrash`
 
 ---
 
-## nm-partners-namshi-catalog-web — 2
+## nm-partners-namshi-catalog-web
 
-| Date | PR | Title |
-|------|-----|--------|
-| 2026-08-11 | [#909](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/909) | [FEATURE] customizations |
-| 2026-08-12 | [#912](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/912) | [FEATURE] Customization |
+### PRs
+
+| Date | PR | Title / branch | Role |
+|------|-----|----------------|------|
+| 2026-06-23 | [#757](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/757) | **crossborder-Deals-e2e** | AhmedFarahat93 merged; your Jun 2–16 feature + e2e commits |
+| 2026-08-06 | [#890](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/890) | Migrate deal components / fix flaky crossborder smoke test | Eslam Ashraf; builds on your crossborder deals tests |
+| 2026-08-10 | [#817](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/817) | featue-customizations | Rana Essam merged; your branch |
+| 2026-08-11 | [#909](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/909) | [FEATURE] customizations | You |
+| 2026-08-11 | [#911](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/911) | featue-customizations | Rana Essam merged; your branch |
+| 2026-08-12 | [#912](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/912) | [FEATURE] Customization | You |
+| 2026-08-25 | [#931](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/931) | fix-customization-status | You merged |
+
+Related later branch (AhmedFarahat93): `feature-CustomizatioErrorHandler` / [#943](https://github.com/fastfishio/nm-partners-namshi-catalog-web/pull/943) sits on top of your customization work; no extra 2026 commits of yours on that branch beyond ancestry.
+
+### Branches you committed on
+
+`crossborder-Deals`, `crossborder-Deals-e2e`, `alt-temp`, `alt-test2`, `alt-v3`, `featue-customizations`, `production-alt`, `fix-customization-status`, `fix-customization-status-v2`, `fix-customization-status-backup`
